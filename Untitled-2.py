@@ -9,6 +9,7 @@ def something():
         print("That is amazing! We hope you have a great year!")
     else:
         print("Oh no! Please check out our resources on our website.")
+        
 def branch():
     school = input("What school do you attend?").strip().lower()
     if school == "swanson":
