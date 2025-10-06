@@ -10,15 +10,18 @@ def something():
     else:
         print("Oh no! Please check out our resources on our website.")
 def branch():
-    school = input("What school do you attend?")
-    if school == "Swanson":
-      print("You are in the Engineering school")
-    elif school == "Dietrich":
-      print("You are in the school for Arts and Sciences")
+    school = input("What school do you attend?").strip().lower()
+    if school == "swanson":
+        print("You are in the Engineering school")
+    elif school == "dietrich":
+        print("You are in the school for Arts and Sciences")
+    elif school == "business":
+        print("You are in the school for Business")
+    elif school == "SCI":
+        print("You are in the school for computing and information")
+    
 
 
-  
-  
 
 if __name__ == "__main__":
     main()
